@@ -42,5 +42,49 @@ img {
     gap: 10px;
 }
 
-/* UTLITIES  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+.col {
+    width: 500px;
+    text-align: center;
+    height: 300px;
+    width: 800px;
+}
+
+
+
+/* UTILITIES */
+
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-violet {
+    background-color: violet;
+}
+
+
+
+
+
+
+/* DEBUG RULS */
+
+.debug ,container {
+    border: 2px solid black;
+}
+
+.debug .row {
+    border: 2px solid yellow;
+    padding: 15px;
+}
+
+.debug .col {
+    border: 2px solid red;
+    padding: 15px;
+}
