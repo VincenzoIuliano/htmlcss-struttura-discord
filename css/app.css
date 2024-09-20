@@ -18,3 +18,29 @@ a {
 img {
     max-width: 100%;
 }
+
+/* LAYOUT */
+
+.main-header {
+    background-color: #ADD8E6;
+    padding: 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DAA520;
+    padding: 10px;
+    width: 1200px;
+    margin: auto;
+    border: 2px dotted black;
+}
+
+.link-list {
+    display: flex;
+    gap: 10px;
+}
+
+/* UTLITIES  */
+
