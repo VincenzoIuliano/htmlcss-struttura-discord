@@ -49,12 +49,24 @@ img {
 }
 
 .col {
-    width: 500px;
+    width: 800px;
     text-align: center;
     height: 300px;
-    width: 800px;
 }
 
+.col-1 {
+    height: 200px;
+    width: 100px;
+    justify-content: center;
+} 
+.row-1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px; 
+    width: 1200px;  
+    align-items: center; 
+    justify-content: center;
+}
 
 
 /* UTILITIES */
@@ -68,12 +80,31 @@ img {
     background-color: violet;
 }
 
+.bg-white {
+    background-color: white;
+}
+
+.bg-rose {
+    background-color: hsl(300, 76%, 72%) ;
+}
+
+.bg-cfblue {
+    background-color: cornflowerblue;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
 
 
 
 
 
-/* DEBUG RULS */
+/* DEBUG RULES */
 
 .debug ,container {
     border: 2px solid black;
